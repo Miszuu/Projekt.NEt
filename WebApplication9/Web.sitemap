@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+    <siteMapNode title="Strona_Glowna"  description="">
+      <siteMapNode url="Strona_glowna.aspx" title="Strona_Glowna"  description=""/>
+        <siteMapNode url="Menu_1.aspx" title="Menu1"  description="" >
+          <siteMapNode url="MENU_1_1.aspx" title="MENU_1_1"  description="" />
+          <siteMapNode url="MENU_1_2.aspx" title="MENU_1_2"  description="" />
+          <siteMapNode url="MENU_1_3.aspx" title="MENU_1_3"  description="" />
+        </siteMapNode>
+        <siteMapNode url="Menu_2.aspx" title="MENU_2"  description="Menu2" >
+          <siteMapNode url="MENU_2_1.aspx" title="MENU_2_1"  description="" />
+        </siteMapNode>
+      <siteMapNode url="Menu_3_0.aspx" title="MENU_2"  description="Menu3" >
+        <siteMapNode url="MENU_3_1.aspx" title="MENU_3_1"  description="" />
+        <siteMapNode url="MENU_3_2.aspx" title="MENU_3_2"  description="" />
+      </siteMapNode>
+      
+    </siteMapNode>
+</siteMap>

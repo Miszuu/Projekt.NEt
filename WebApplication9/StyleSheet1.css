@@ -1,0 +1,57 @@
+﻿body {
+    font-family:Verdana;
+}
+
+div.menu ul{
+    
+list-style:none;
+margin:0;
+padding:0;
+width:auto;
+}
+div.menu a.level1 {
+background: #d6d0d0;
+margin: 5px;
+padding: 5px;
+}
+div.menu a.level2 {
+ margin:5px;
+ padding:5px;
+background: #d6d0d0;
+padding-left: 100px;
+}
+div.menu a:hover{
+background: green;
+}
+div.menu a.selected {
+background: #8e7171;
+}.naglowek{
+    margin-bottom:5px;
+    height: 50px;
+    width: 100%;
+    background: #A09B9B;
+    text-align:center;
+}
+
+.lewy_srodek{
+ color:black;
+    height: 650px;
+    width: 200px;
+    background: #535050;
+    display:inline-block;
+}
+.prawy_srodek{
+    width:calc(100% - 206px);
+    height:650px;
+    display:inline-block;
+    background: #ddc1c1;
+    vertical-align:top;
+}
+.stopka {
+   font-weight: bold;
+    text-align:center;
+    height:50px;
+    width:100%;
+    background: #A09B9B;
+
+}
