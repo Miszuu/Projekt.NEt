@@ -1,0 +1,32 @@
+﻿body {
+}
+
+.srodek {
+    width:500px;
+    border:dashed;
+    margin:10px auto;
+       background: #ddc1c1;
+}
+
+.lewy {
+display:inline-block;
+ vertical-align:top;
+    
+   margin: 0 auto;
+    text-align:right;
+       vertical-align: middle;
+}
+
+.prawy {
+    display:inline-block;
+ vertical-align:top;
+    
+   margin: 0 auto;
+   text-align:left;
+}
+.lacze{
+          text-align:center;
+}
+.przerwy{
+    padding: 0px 0px 3px 0px;
+}
