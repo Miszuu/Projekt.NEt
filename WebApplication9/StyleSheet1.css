@@ -25,24 +25,32 @@ background: green;
 }
 div.menu a.selected {
 background: #8e7171;
-}.naglowek{
+}
+
+.naglowek{
     margin-bottom:5px;
-    height: 50px;
+    height: 150px;
     width: 100%;
-    background: #A09B9B;
     text-align:center;
 }
 
 .lewy_srodek{
  color:black;
-    height: 650px;
+ 
     width: 200px;
     background: #535050;
     display:inline-block;
 }
 .prawy_srodek{
-    width:calc(100% - 206px);
-    height:650px;
+    width:200px;
+  
+    display:inline-block;
+    background: #ddc1c1;
+    vertical-align:top;
+}
+.srodek{
+    width:calc(100% - 412px);
+   
     display:inline-block;
     background: #ddc1c1;
     vertical-align:top;
@@ -54,4 +62,25 @@ background: #8e7171;
     width:100%;
     background: #A09B9B;
 
+}
+.news_data {
+    border:solid;
+    background-color:white;
+    font-family:'Times New Roman';
+    width:125px;
+    text-align:center;
+    font-style:italic;
+
+}
+.news_naglowek {
+    font-size:25px;
+    font-family:Verdana;
+    text-align:center;
+    font-weight:bold;
+}
+.news_tresc {
+    font-family:Verdana;
+}
+.news_przerwa {
+    height:50px;
 }

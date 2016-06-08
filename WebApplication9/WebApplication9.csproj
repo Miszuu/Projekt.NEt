@@ -57,6 +57,8 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="eg.jpg" />
+    <Content Include="Logo.png" />
     <Content Include="Menu_1_1.aspx" />
     <Content Include="Menu_1_2.aspx" />
     <Content Include="Menu_1_3.aspx" />
@@ -66,6 +68,7 @@
     <Content Include="Menu_3_2.aspx" />
     <Content Include="Strona_glowna.aspx" />
     <Content Include="StyleSheet1.css" />
+    <Content Include="teamliquid.png" />
     <Content Include="Web.config" />
     <Content Include="Menu_1.aspx" />
     <Content Include="Menu_2.aspx" />

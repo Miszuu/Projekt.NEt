@@ -11,30 +11,38 @@
 </head>
 <body>
     <form id="form1" runat="server">
-    <div>
+        <div>
 
-        <div class="naglowek"><h1>Nagłówek</h1></div>
-        <div class="lewy_srodek">
-        <asp:Menu ID="Menu1" DataSourceID="SiteMapDataSource2" CssClass="menu" runat="server" StaticDisplayLevels="3" StaticMenuItemStyle-ForeColor="#000000">
-<LevelMenuItemStyles>
-    <asp:MenuItemStyle CssClass="level1"/>
-    <asp:MenuItemStyle CssClass="level2"/>
-    <asp:MenuItemStyle CssClass="level3" />
-    <asp:MenuItemStyle CssClass="level4" />
-  </LevelMenuItemStyles>
-        <StaticHoverStyle CssClass="hoverstyle"/>
-        </asp:Menu>
+            <div class="naglowek">
+                <asp:Image ID="Image1" runat="server"  ImageUrl="~/Logo.png"/>
             </div>
-        <asp:SiteMapDataSource ID="SiteMapDataSource2" runat="server" ShowStartingNode="false" />
-        
-        <div class="prawy_srodek">
-        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
-        </asp:ContentPlaceHolder>
+            <div class="lewy_srodek">
+                <asp:Menu ID="Menu1" DataSourceID="SiteMapDataSource2" CssClass="menu" runat="server" StaticDisplayLevels="3" StaticMenuItemStyle-ForeColor="#000000">
+                    <LevelMenuItemStyles>
+                        <asp:MenuItemStyle CssClass="level1" />
+                        <asp:MenuItemStyle CssClass="level2" />
+                        <asp:MenuItemStyle CssClass="level3" />
+                        <asp:MenuItemStyle CssClass="level4" />
+                    </LevelMenuItemStyles>
+                    <StaticHoverStyle CssClass="hoverstyle" />
+                </asp:Menu>
             </div>
-        <div class="stopka">
-            To jest stopka
+            <asp:SiteMapDataSource ID="SiteMapDataSource2" runat="server" ShowStartingNode="false" />
+
+            <div class="srodek">
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                </asp:ContentPlaceHolder>
+            </div>
+            <div class="prawy_srodek">
+                <asp:Image ID="Image2" runat="server" />
+                 <asp:Image ID="Image3" runat="server" />
+                 <asp:Image ID="Image4" runat="server"  />
+                 <asp:Image ID="Image5" runat="server" />
+            </div>
+            <div class="stopka">
+                To jest stopka
+            </div>
         </div>
-    </div>
     </form>
 </body>
 </html>
