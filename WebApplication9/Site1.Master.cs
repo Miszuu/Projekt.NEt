@@ -13,5 +13,12 @@ namespace WebApplication9
         {
 
         }
+
+        protected void Rekrutujemy_click(object sender, ImageClickEventArgs e)
+        {
+            String url = "";
+            url += "Rekrutujemy.aspx";
+            Server.Transfer(url, true);
+        }
     }
 }

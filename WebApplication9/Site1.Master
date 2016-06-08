@@ -34,6 +34,8 @@
                 </asp:ContentPlaceHolder>
             </div>
             <div class="prawy_srodek">
+                <div style="text-align:center;font-size:30px;font-family:Gabriola;">Rekrutujemy kliknij!</div>
+                <div style="text-align:center"><asp:ImageButton ID="Rekrutujemy_Obrazek" runat="server" ImageUrl="~/Rekrutujemy.jpg" OnClick="Rekrutujemy_click" /></div>
                 <asp:Image ID="Image2" runat="server" />
                  <asp:Image ID="Image3" runat="server" />
                  <asp:Image ID="Image4" runat="server"  />
